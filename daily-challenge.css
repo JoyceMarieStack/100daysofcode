@@ -1,11 +1,15 @@
-p {
-  color: darkolivegreen;
+body {
   text-align: center;
+  font-family: "Xanh Mono", monospace;
 }
 
 h1 {
-  text-align: center;
   color: blue;
+}
+
+p {
+  color: darkolivegreen;
+  text-align: center;
 }
 
 a {
@@ -19,4 +23,16 @@ a:hover {
 
 span {
   color: red;
+}
+
+#todays-challenge {
+  color: fuchsia;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
 }
