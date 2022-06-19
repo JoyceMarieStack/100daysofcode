@@ -1,0 +1,22 @@
+p {
+  color: darkolivegreen;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+  color: blue;
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+span {
+  color: red;
+}

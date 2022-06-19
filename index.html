@@ -2,22 +2,17 @@
 
 <html>
   <head>
-    <style>
-      p {
-        color: darkolivegreen;
-        text-align: center;
-      }
-
-      h1 {
-        text-align: center;
-        color: blue;
-      }
-    </style>
+    <link href="styles.css" rel="stylesheet" />
 
     <title>100 Days Web Development</title>
   </head>
   <body>
-    <h1>Joyce Challenge for Thursday</h1>
+    <h1>Joyce Challenge for</h1>
+    <p>Date/Time: <span id="datetime"></span></p>
+    <script>
+      var dt = new Date();
+      document.getElementById("datetime").innerHTML = dt.toLocaleString();
+    </script>
     <p>its Sorchio!</p>
     <p>
       <a href="https://www.bbc.co.uk/weather">Its so hot today</a>
