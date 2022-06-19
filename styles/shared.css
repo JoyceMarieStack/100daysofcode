@@ -5,17 +5,15 @@ body {
 
 h1 {
   color: blue;
-  font-family: "Oswald", sans-serif;
 }
 
 p {
-  color: blueviolet;
+  color: darkolivegreen;
   text-align: center;
-  font-family: "Fascinate", cursive;
 }
 
 a {
-  color: green;
+  color: purple;
   text-decoration: none;
 }
 
