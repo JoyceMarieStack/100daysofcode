@@ -1,20 +1,21 @@
 body {
-  text-align: center;
   background-color: aliceblue;
+  text-align: center;
+  color: rgb(83, 75, 75);
 }
 
 h1 {
-  color: blue;
+  font-family: "Oswald", sans-serif;
 }
 
 p {
-  color: darkolivegreen;
-  text-align: center;
+  font-family: "Fira Sans", sans-serif;
 }
 
 a {
-  color: purple;
+  font-family: "Fira Sans", sans-serif;
   text-decoration: none;
+  color: rgb(167, 1, 78);
 }
 
 a:hover {
